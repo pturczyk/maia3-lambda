@@ -1,0 +1,14 @@
+# Pinned: an unpinned rebuild of the Maia-2 image once pulled a newer torch and
+# broke cold starts. maia3 itself is installed --no-deps in the Dockerfile, so
+# huggingface-hub (only needed to download weights) stays out of the image.
+chess==1.10.0
+filelock==3.29.0
+fsspec==2026.4.0
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+mpmath==1.3.0
+networkx==3.6.1
+numpy==2.1.3
+sympy==1.14.0
+torch==2.4.0
+typing_extensions==4.15.0
